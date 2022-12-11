@@ -1,0 +1,57 @@
+.header{
+    height: 120vh;
+    background: url('../img/-min.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    &-nav{
+        height: 6rem;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        box-icon{
+            display: none;
+        }
+       
+        &__logo{
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: #dcb287;
+        }
+
+        ul{
+            list-style-type: none;
+            li{
+                display: inline-block;
+                margin-left: 1.6rem;
+            }
+        }
+            
+        a{
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 1.4rem;
+            color: #dcb287;        
+        }
+    }
+
+    &-content{
+        position: relative;
+        top:166px;
+        width: 60%;
+        background-color:#000;
+        border-radius:15px;
+        padding:30px;
+        h1{
+            color: #5c9ca8;
+            font-size: 52px;
+            margin-bottom: 1.9rem;
+        }
+        p{
+            color: #fff;
+        }
+
+    }
+
+   
+    
+}

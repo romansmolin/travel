@@ -1,0 +1,86 @@
+.adventure{
+    height: 100vh;
+    background-color:#dcb287;
+    padding: 35px 0 47px 0;
+
+    img{
+        width: 100%;
+    }
+    
+    &__title{
+        font-size: 42px;
+        text-align: center;
+        font-weight: 800;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    &__descr{
+        width: 50%;
+        margin: 0 auto;
+        color: #fff;
+        text-align: center;
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 33px;
+    }
+
+    &__image1{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background:url('../img/borabora.jpg');
+        background-size: cover;
+        margin-bottom: 20px;
+    }
+    &__image2{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background:url('../img/malaysia.jpg');
+        background-size: cover;
+        margin-bottom: 20px;
+    }
+    &__image3{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background:url('../img/caledonia.jpg');
+        background-size: cover;
+        margin-bottom: 20px;
+    }
+    &__image4{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background:url('../img/indonesia.jpg');
+        background-size: cover;
+        margin-bottom: 20px;
+    }
+    &__subtitle{
+        font-size: 23px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    &__text{
+        font-size: 16px;
+        text-align: center;
+    }
+  
+    &-items{
+        display: flex;
+        justify-content: space-between;
+        &__card{
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            width: 260px;
+            height: 485px;
+            background-color: #fff;
+            padding: 35px;
+            line-height: 25px;
+            border-top: 5px solid #5c9ca8;
+            border-radius:15px;
+        }
+    }
+}

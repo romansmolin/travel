@@ -1,0 +1,72 @@
+.offers{
+    min-height: 716px;
+    padding: 45px 0;
+    &-items{
+        display:flex;
+        justify-content: space-between;
+        align-items:center;
+        &__card1{
+            display: flex;
+            align-items: flex-end;
+            width: 340px;
+            height: 596px;
+            background:url('../img/card1.jpg');
+            &__text{
+                background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6));
+                padding: 30px;
+                text-align: center;
+                color:#fff;
+                h2{
+                    font-size: 18px;
+                    font-weight: 600;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+
+        &__card2{
+            display: flex;
+            align-items: flex-start;
+            width: 340px;
+            height: 596px;
+            background:url('../img/card2.jpg');
+            &__text{
+                background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6));
+                padding: 30px;
+                text-align: center;
+                color:#fff;
+                h2{
+                    font-size: 18px;
+                    font-weight: 600;
+                    margin-bottom: 15px;
+                }
+            }
+          }
+
+        &__card3{
+            display: flex;
+            align-items: flex-start;
+            width: 340px;
+            height: 596px;
+            &__text{
+                display: flex;
+                flex-direction: column;
+                height: 596px;
+            }
+            p:nth-child(1){
+                font-size: 18px;
+                font-weight: 600;
+                margin-bottom: 25px;
+            }
+            p:nth-child(2){
+                line-height: 25px;
+                margin-bottom: 25px;
+                font-size: 16px;
+            }
+           .third{           
+            flex: 1 1 auto;
+            line-height: 25px;
+           }
+        }
+    }
+}

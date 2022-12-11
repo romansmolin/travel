@@ -1,0 +1,28 @@
+.sea{
+    padding: 0 0 90px 0;
+    min-height: 651px;
+    background: url('../img/sea.jpeg');
+    .container{
+        height: 651px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    &__subtitle{
+        //height: 133px;
+        width: 40%;
+        font-weight: 800;
+        font-size: 48px;
+        text-align: right;
+        color:#fff; 
+    }
+    &__text{
+        font-weight: 600;
+        line-height: 25px;
+        width: 509px;
+        text-transform: uppercase;
+        text-align: left;
+        color:#fff;
+        font-size: 16px;
+    }
+}

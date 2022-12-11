@@ -1,0 +1,46 @@
+.features{
+    min-height: 750px;
+    padding: 88px 0;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.6)), url('../img/sx-min.jpg');
+    &-block{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title{
+        font-size: 48px;
+        font-weight: 800;
+        text-align: center;
+        color:#fff;
+        margin-bottom: 41px;
+    }
+    &__descr{
+        font-weight: 600;
+        font-size: 20px;
+        text-align: center;
+        color:#5c9ca8;
+        margin-bottom: 50px;
+    }
+    &__items{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__card{
+        width: 260px;
+        height: 280px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color:#5c9ca8;
+        color:#fff;
+        border-radius:15px;
+        padding: 30px;
+        h2{
+            font-size: 70px;
+            margin-bottom: 15px;
+        }
+        p{  
+            font-size: 14px;
+            line-height: 25px;
+        }
+    }
+}

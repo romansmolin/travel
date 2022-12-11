@@ -1,0 +1,254 @@
+/*Wide Screens*/
+
+@media only screen and (max-width:1200px){
+   
+    .container{
+        width: 940px;
+    }
+
+    .header{
+        height: 822px;
+        &-content{
+            top:75px;
+        }
+    }
+
+    .introduction{
+        margin-bottom: -40px;
+        &__item{
+            width: 225px;
+            padding: 27px;
+        }
+    }
+    .adventure{
+        height: auto;
+        &-items__card{
+            width: 225px;
+            height: 515px;
+        }
+    }
+
+    .features__card{
+        width: 226px;
+    }
+
+    .offers{
+        &-items__card1{
+            width: 285px;
+        }
+
+        &-items__card2{
+            width: 285px;
+        }
+
+        &-items__card3{
+            width: 285px;
+        }
+    }
+
+    .contacts-cards__items{
+        width: 290px;
+    }
+    
+}
+    
+    /*medium devices*/
+@media only screen and (max-width:992px){
+    
+    
+    }
+    
+    /*tablets*/
+@media only screen and (max-width:768px){
+
+    .container{
+        width: 720px;
+    }
+    .header{
+        background-size:cover;
+        &-nav{
+            display: none;
+        }
+        &-content{
+            margin: 0 auto;
+            top:150px;
+        }
+    
+    }
+
+    
+    
+    .features__items{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .features__card{
+        width: 270px;
+        margin: 10px;
+    }
+
+    .introduction{
+        .container{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__item{
+            margin: 15px;
+        }
+    }
+
+    .adventure-items{
+        flex-wrap: wrap;
+        justify-content: center;
+        &__card{
+            width: 250px;
+            margin: 15px;
+        }
+    }
+
+    .sea{
+        height: 150px;
+        background-size:cover;
+        .container{
+            align-items: center;
+            justify-content: space-between;
+        }
+        &__subtitle{
+            flex-basis: 45%;
+            position: relative;
+            top:135px
+           
+        }
+        &__text{
+            flex-basis: 45%;
+            position: relative;
+            top:135px
+            
+        }
+    }
+    
+    .offers-items{
+        flex-wrap: wrap;
+        justify-content: center;
+        //height: 1000px;
+    }
+    .offers-items__card1{
+        margin-right: 5px;
+    }
+    .offers-items__card2{
+        margin-left: 5px;
+    }
+    .offers-items__card3{
+        margin-top: 20px;
+        //width: 580px;
+        .third{
+            flex:unset;
+        }
+    }
+
+    .contacts-cards{
+        flex-wrap: wrap;
+        justify-content: center;
+        &__items{
+            margin: 15px;
+        }
+    }
+   
+    .contacts-info{
+        justify-content: space-between;
+        margin-bottom: 20px;
+        &__news{
+            margin-left: 40px;
+        }
+        &__location{
+            margin-right: 40px;
+        }
+    }
+
+
+
+
+}
+
+    
+    
+@media only screen and (max-width:576px){
+      .container{
+        width: 340px;
+      }
+
+      .header{
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+        }
+        &-content{
+            width: auto;
+            top: 135px;
+            h1{
+                font-size: 34px;
+            }
+        }
+      }
+
+      .sea{
+        &__subtitle{
+            top:50px;
+        }
+        &__text{
+            line-height: normal;
+            top:120px
+        }
+      }
+
+      .features{
+        background-size:cover;
+        background-repeat: no-repeat;
+      }
+
+      .offers{
+        &-items{
+            // flex-wrap: nowrap;
+            // flex-direction: column;
+            // justify-content: space-between;
+            &__card1{
+                margin: auto;
+                margin-bottom: 15px;
+            }
+            &__card2{
+                margin: auto;
+                margin-bottom: 15px;
+            }
+            &__card3{
+
+                
+                p:nth-child(1){
+                    font-size: 15px;
+                }
+                 
+                p:nth-child(2){
+                    font-size: 13px;
+                }
+
+                .third{
+                    font-size: 13px;
+                }
+
+            }
+        }
+      }
+      .contacts{
+        &-info{
+            flex-wrap: wrap;
+            &__news{
+                margin: auto;
+                padding-right: 0;
+                flex-basis: 100%;
+            }
+        }
+      }
+
+    }
+    

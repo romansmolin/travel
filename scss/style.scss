@@ -1,0 +1,32 @@
+//@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,800;1,100&family=Poppins:wght@400;600;800&family=Roboto:wght@300;400;700&display=swap');
+@import 'block/header';
+@import 'block/introduction';
+@import 'block/adventure';
+@import 'block/sea';
+@import 'block/features';
+@import 'block/offers';
+@import 'block/btn';
+@import 'block/contacts';
+@import 'base/media';
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    //font-size: 62.5%;
+}
+body, html{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    position: relative;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+

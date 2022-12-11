@@ -1,0 +1,45 @@
+.introduction{
+    min-height: 374px;
+    background-color:#5c9ca8;
+    .container{
+        display: flex;
+        justify-content:space-between;
+    }
+    img{
+        width: 55%;
+    }
+    &__item{
+        transform: translateY(-60px);
+        margin-bottom: 60px;
+        display: flex;
+        //justify-content: center;
+        align-items:center;
+        padding: 30px;
+        flex-direction: column;
+        width: 250px;
+        height: 365px;
+        background-color:#fff;
+        border-radius:15px;
+    }
+    &__icon{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color:#5c9ca8;
+        margin-bottom: 25px;
+    }
+    &__title{
+        font-weight: 800;
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    &__descr{
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+
